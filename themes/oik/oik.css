@@ -1,0 +1,117 @@
+/*
+Skin Name: Nivo Slider OIK theme for nivo slider v3.1
+Skin URI: http://www.oik-plugins.com
+Description: The OIK skin for the Nivo Slider.
+Version: 1.0
+Author: Herb Miller of bobbing wide
+Author URI: http://www.oik-plugins.com
+Supports Thumbs: true
+*/
+
+.theme-oik .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-oik .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-oik .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-oik .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-oik .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-oik .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-oik .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.theme-oik:hover .nivo-directionNav a { opacity: 1; }
+.theme-oik a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-oik a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-oik .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-oik .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-oik .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-oik .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-oik .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-oik .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+
+/* You can't turn the caption off using CSS display:none as the jQuery overrides it. */
+.theme-oik .nivo-caption {  
+  font-family: Helvetica, Arial, sans-serif;  
+  background-color: #359315;
+  border: 1px solid #359315;
+  border-radius: 4px; 
+  margin: 0px 20px 10px 20px; 
+  width: auto; 
+}
+
+.theme-oik .nivo-caption:hover, nivo-caption-hovered {
+  text-decoration: underline; cursor: pointer;
+  background: #159374;
+  border: 1px solid #359315;
+}
+
+.theme-oik .nivo-caption a {
+    color:#fff; background-color: #00ff00;
+    border-bottom:1px dotted #fff;
+}
+.theme-oik .nivo-caption a:hover {
+    color:#fff;
+}

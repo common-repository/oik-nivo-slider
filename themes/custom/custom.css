@@ -1,0 +1,94 @@
+/*
+Skin Name: custom theme for nivo slider v3.2
+Skin URI: http://www.oik-plugins.com
+Description: the uncoloured custom skin for oik-nivo-slider
+Version: 1.0
+Author: Herb Miller of bobbing wide
+Author URI: http://www.oik-plugins.com
+Supports Thumbs: true
+*/
+
+.theme-custom .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+}
+
+.theme-custom .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-custom .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-custom .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.theme-custom .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-custom .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-custom .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.theme-custom:hover .nivo-directionNav a { 
+	opacity: 1; 
+}
+
+.theme-custom a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-custom a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-custom .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+
+.theme-custom .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+
+.theme-custom .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+
+/* You can't turn the caption off using CSS display:none as the jQuery overrides it. */
+.theme-custom .nivo-caption {  
+  width: auto; 
+}
+
+
+
+

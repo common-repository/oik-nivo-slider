@@ -1,0 +1,223 @@
+# Copyright (C) 2022 oik-nivo-slider
+# This file is distributed under the same license as the oik-nivo-slider package.
+msgid ""
+msgstr ""
+"Project-Id-Version: oik-nivo-slider 1.16.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/oik-nivo-slider\n"
+"POT-Creation-Date: 2022-08-12 10:47:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: bb_BB\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+#: admin/oik-activation.php:29
+msgid "Install %1$s"
+msgstr "Isnatll %1$s"
+
+#: admin/oik-activation.php:61
+msgid "Activate %1$s"
+msgstr "Atcvitae %1$s"
+
+#: admin/oik-activation.php:79
+msgid "Upgrade %1$s"
+msgstr "Ugparde %1$s"
+
+#: admin/oik-activation.php:195
+msgid "version"
+msgstr "vreison"
+
+#: admin/oik-activation.php:197
+msgid "%1$s may not be fully functional."
+msgstr "%1$s mAy nOt bE fluly fnutcoianl."
+
+#: admin/oik-activation.php:199
+msgid ""
+"Please install and activate the required minimum version of this plugin: %1$s"
+msgstr "Pelsae isnatll And atcvitae thE rqeiuerd mnimium vreison Of tihs pulign: %1$s"
+
+#: admin/oik-nivo-slider.php:8
+msgid "oik nivo slider settings"
+msgstr "OIk nvio siledr steitgns"
+
+#: admin/oik-nivo-slider.php:8
+msgid "Nivo settings"
+msgstr "Nvio steitgns"
+
+#: admin/oik-nivo-slider.php:15
+msgid "Nivo slider options"
+msgstr "Nvio siledr otpoins"
+
+#: admin/oik-nivo-slider.php:16
+msgid "Default slider options"
+msgstr "Dfeualt siledr otpoins"
+
+#: admin/oik-nivo-slider.php:19
+msgid "Usage notes"
+msgstr "Uasge ntoes"
+
+#: admin/oik-nivo-slider.php:69
+msgid "Effect"
+msgstr "Effcet"
+
+#: admin/oik-nivo-slider.php:69
+msgid "effect"
+msgstr "effcet"
+
+#: admin/oik-nivo-slider.php:71
+msgid "Slices"
+msgstr "Silecs"
+
+#: admin/oik-nivo-slider.php:72
+msgid "Box cols"
+msgstr "BOx clos"
+
+#: admin/oik-nivo-slider.php:73
+msgid "Box rows"
+msgstr "BOx rwos"
+
+#: admin/oik-nivo-slider.php:74
+msgid "Anim speed"
+msgstr "Ainm seped"
+
+#: admin/oik-nivo-slider.php:75
+msgid "Pause time"
+msgstr "Puase tmie"
+
+#: admin/oik-nivo-slider.php:77
+msgid "Control nav"
+msgstr "Cnortol nAv"
+
+#: admin/oik-nivo-slider.php:78
+msgid "Control nav thumbs"
+msgstr "Cnortol nAv tuhbms"
+
+#: admin/oik-nivo-slider.php:79
+msgid "Direction nav"
+msgstr "Driceiton nAv"
+
+#: admin/oik-nivo-slider.php:80
+msgid "Direction nav hide"
+msgstr "Driceiton nAv hdie"
+
+#: admin/oik-nivo-slider.php:81
+msgid "Pause on hover"
+msgstr "Puase On hvoer"
+
+#: admin/oik-nivo-slider.php:82 nivo.php:789
+msgid "Manual advance"
+msgstr "Mnaaul avdnace"
+
+#: admin/oik-nivo-slider.php:84
+msgid "Caption opacity"
+msgstr "Cpaiton oapicty"
+
+#: admin/oik-nivo-slider.php:87
+msgid "Save changes"
+msgstr "Svae cahgnes"
+
+#: admin/oik-nivo-slider.php:97
+msgid ""
+"These options for the jQuery Nivo slider control the default behavior for "
+"each instance of the slider."
+msgstr "Tehse otpoins fOr thE juQrey Nvio siledr cnortol thE dfeualt bhevaoir fOr ecah isnatcne Of thE siledr."
+
+#: nivo.php:428
+msgid "Unsupported special post_type: %1$s"
+msgstr "Usnpuoptred sepical psot_tpye: %1$s"
+
+#: nivo.php:471
+msgid "NextGEN does not appear to be activated"
+msgstr "NxeGtEN deos nOt appaer tO bE atcvitaed"
+
+#: nivo.php:763
+msgid "Display the nivo slideshow for attachments or other post types."
+msgstr "Dsilpay thE nvio siledhsow fOr attcamhnets Or ohter psot tpyes."
+
+#: nivo.php:768
+msgid "image size"
+msgstr "iamge szie"
+
+#: nivo.php:777
+msgid "post_type"
+msgstr "psot_tpye"
+
+#: nivo.php:777
+msgid "Post type to display"
+msgstr "Psot tpye tO dsilpay"
+
+#: nivo.php:778
+msgid "Theme for the slideshow"
+msgstr "Tehme fOr thE siledhsow"
+
+#: nivo.php:779
+msgid "classes"
+msgstr "calsses"
+
+#: nivo.php:779
+msgid "CSS classes"
+msgstr "CSS calsses"
+
+#: nivo.php:780
+msgid "Link the images to the target post/page or media file"
+msgstr "Lnik thE iamegs tO thE traegt psot/pgae Or mdeia flie"
+
+#: nivo.php:781
+msgid "Display the image title as the caption"
+msgstr "Dsilpay thE iamge ttile As thE cpaiton"
+
+#: nivo.php:782
+msgid "format"
+msgstr "froamt"
+
+#: nivo.php:782
+msgid "field format string"
+msgstr "feild froamt srtnig"
+
+#: nivo.php:783
+msgid "Display the ribbon, if the theme supports it"
+msgstr "Dsilpay thE rbiobn, If thE tehme spuoptrs It"
+
+#: nivo.php:786
+msgid "Thumbnail navigation"
+msgstr "Tuhbmanil nvagitaoin"
+
+#: nivo.php:787
+msgid "Control navigation"
+msgstr "Cnortol nvagitaoin"
+
+#: nivo.php:788
+msgid "pause"
+msgstr "puase"
+
+#: nivo.php:788
+msgid "Pause time in milli seconds"
+msgstr "Puase tmie In mlili scenods"
+
+#: nivo.php:790
+msgid "transition effect"
+msgstr "tarsntioin effcet"
+
+#: nivo.php:805
+msgid ""
+"Slideshow of the screenshots from oik-nivo-slider, using the oik theme and "
+"the current settings."
+msgstr "Siledhsow Of thE srceesnohts form OIk-nvio-siledr, uisng thE OIk tehme And thE cruernt steitgns."
+
+msgid "oik-nivo-slider"
+msgstr "OIk-nvio-siledr"
+
+msgid "https://www.oik-plugins.com/oik-plugins/oik-nivo-slider/"
+msgstr "https://www.oik-plugins.com/oik-plugins/oik-nivo-slider/"
+
+msgid "[nivo] shortcode for the Nivo slider using oik"
+msgstr "[nivo] sohtrocde fOr thE Nvio siledr uisng OIk"
+
+msgid "bobbingwide"
+msgstr "bboibgniwde"
+
+msgid "https://bobbingwide.com/about-bobbing-wide"
+msgstr "https://bobbingwide.com/about-bobbing-wide"
+

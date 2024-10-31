@@ -1,0 +1,258 @@
+== Upgrade Notice ==
+= 1.16.3 =
+Upgrade for support for PHP 8.1 and PHP 8.2. Tested with WordPress 6.4
+
+= 1.16.2 =
+Tested with WordPress 6.0.1
+
+= 1.16.1 =
+Tested with WordPress 5.7 and PHP 8.0
+
+= 1.16.0 =
+Updated for WordPress 5.5. Updated to work with jQuery 3.5.1, planned for WordPress 5.6
+
+= 1.15.3 = 
+Tested with WordPress 5.3.2, PHP 7.3 and 7.4, PHPUnit 8
+
+= 1.15.2 = 
+Now depends on oik v3.2.8. Gutenberg compatible.
+
+= 1.15.1 =
+Fixes "Unable to locate routine to expand shortcode" message
+
+= 1.15.0 = 
+Now depends on oik v3.2.1. Please update oik before updating oik-nivo-slider.
+
+= 1.14.4 = 
+Tested with WordPress 4.7.3 and WordPress Multisite. Tested with PHP 7.1
+
+= 1.14.3 = 
+Contains a fix for Issue 4. Tested with WordPress 4.5. Now dependent on oik v3.0.0 or higher.
+
+= 1.14.2 = 
+Contains a fix for Issue 3. Tested with WordPress 4.5. Now dependent on oik v3.0.0 or higher.
+
+= 1.14.1 =
+Upgrade if you use do_shortcode('[nivo]') in your theme or want to use the new 'custom' theme
+
+= 1.14.0 =
+Now depends on oik v2.4 or higher. Upgrade if you're using the Nivo v2.7.1 themes or require link=full capability
+
+= 1.13 =
+* Contains a fix for when using the format= parameter and when multiple sliders are being used to display the same content
+
+= 1.12 = 
+* Upgrade to get full HTML support for captions using the format parameter
+
+= 1.11 = 
+* Contains a CSS fix for nivo sliders displayed in text widgets
+
+= 1.10 =
+* Now dependent upon oik v2.1
+
+= 1.9 =
+* Now delivers jQuery nivo slider version 3.2. Upgrading the oik base plugin to v2.0.1 is also recommended.
+
+= 1.8 = 
+* Uses latest dependency checking logic. Now dependent upon v1.17 of the oik base plugin
+
+= 1.7.1216 = 
+* Download to use the effect= parameter . Only available from oik-plugins.com
+
+= 1.7 = 
+* Requires oik v1.17(.1122.1709) for thumbnail navigation support
+* Requires oik v1.17.1128 for custom boxCols or boxRows settings
+
+= 1.6 =
+* Version 1.6 should be used with oik version 1.16.
+
+= 1.5 =
+* Version 1.5 should be used with oik version 1.15. 
+
+= 1.4 =
+* Version 1.4 should be used with oik version 1.14, which includes a number of fixes required by oik-nivo-slider
+
+= 1.3 =
+* Please upgrade to oik-nivo-slider v1.3 when you upgrade to oik v1.13. A change in oik's bw_jquery() function could have caused slideshow images to be hidden.
+
+= 1.2 = 
+* Please upgrade oik to at least version 1.12 before installing oik-nivo-slider v1.2
+* The minimum requirement for a WordPress Multisite solution is oik version 1.12.1     
+
+* In order to allow you to change the default slideshow behaviour I needed to add some new functions to oik
+* Rather than make the functions pluggable I decided it was better to improve the plugin dependency logic
+* So version 1.2 is now dependent upon oik version 1.12
+* If you have oik version 1.11 or earlier then the plugin will activate and issue warning messages
+* BUT it will not work!
+* If you are installing into a WordPress MultiSite environment oik version 1.2.1 is needed
+  
+= 1.0 =
+* first version works with oik version 1.11
+
+== Changelog ==
+= 1.16.3 =
+* Changed: Support PHP 8.1 and PHP 8.2 #13
+* Tested: With WordPress 6.4-beta3 and WordPress Multisite
+* Tested: With PHP 8.0, PHP 8.1 and PHP 8.2
+* Tested: With PHPUnit 9.6
+
+= 1.16.2 =
+* Tested: With WordPress 6.0.1 and WordPress Multi Site
+* Tested: With PHP 8.0
+* Tested: With PHPUnit 9
+
+= 1.16.1 =
+* Fixed: Corrected US English spelling of behavior,[github bobbingwide oik-nivo-slider issues 12]
+* Tested: With WordPress 5.7 and WordPress Multi Site
+* Tested: With PHP 8.0 and 7.4
+* Tested: With PHPUnit 9
+
+= 1.16.0 =
+* Changed: Updated jQuery files to run without jQuery Migrate, [github bobbingwide oik-nivo-slider issues 11]
+* Changed: Updated jQuery files to support jQuery 3.5.1, [github bobbingwide oik-nivo-slider issues 11]
+* Tested: With WordPress 5.5.1 and WordPress Multi Site
+* Tested: With PHP 7.4
+* Tested: With PHPUnit 8
+
+= 1.15.3 =
+* Changed: Updated PHPUnit tests for PHPUnit 8,[github bobbingwide oik-nivo-slider issues 10]
+* Tested: With WordPress 5.3.2 and WordPress Multi Site
+* Tested: With PHP 7.3 and 7.4
+* Tested: With PHPUnit 8
+ 
+= 1.15.2 =
+* Changed: Now depends on oik v3.2.8
+* Tested: With WordPress 5.0-RC3
+* Tested: With Gutenberg 4.6.1
+* Tested: With PHP 7.1 and 7.2
+
+= 1.15.1 =
+* Fixed: Loads nivo.php rather than nivo.inc to expand the nivo shortcode 
+
+= 1.15.0 =
+* Changed: 100% internationalized and localized in UK English [github bobbingwide oik-nivo-slider issues 6]
+* Changed: Depends on oik v3.2.1 
+* Tested: With WordPress 4.8.3, WordPress 4.9 and WordPress Multisite [github bobbingwide oik-nivo-slider issues 7]
+* Tested: With PHP 7.0 and 7.1
+
+= 1.14.4 = 
+* Tested: With WordPress 4.7.3 and WordPress Multisite
+* Tested: With PHP 7.1 [github bobbingwide oik-nivo-slider issues 5]
+* Tested: With https protocol 
+* Changed: Docblocks
+* Changed: Updated readme 
+
+= 1.14.3 = 
+* Fixed: Dependency checking issues when oik v2.4 is active [github bobbingwide oik-nivo-slider issue 4]
+
+= 1.14.2 =
+* Fixed: nivo slider formatting issues when attachment titles contain HTML tags [github bobbingwide oik-nivo-slider issue 3]
+* Changed: Now reports dependency on oik v3.0.0 or higher
+* Tested: With WordPress 4.5 and WordPress MultiSite
+
+= 1.14.1 = 
+* Added: New theme called 'custom' which allows you more control over styling. Issue #2
+* Changed: Logic now sets style=display:none on all but the first image to be displayed, for attachments and screenshots 
+* Fixed: Reverted deferred registration of the [nivo] shortcode. Issue #1
+
+= 1.14.0 =
+* Added: link=full parameter option to open the full sized image.
+* Changed: Supports symlinked installations. 
+* Changed: Now depends on oik v2.4
+* Changed: Does not register the [nivo] shortcode until notified by 'oik_add_shortcodes' 
+* Fixed: Includes minor CSS changes to improve the initial display of sliders displayed using Nivo jQuery 2.7.1 themes@ default271, oik271, orman and pascal
+* Tested: With WordPress 4.3
+
+= 1.13 = 
+* Fixed: Added call to bw_clear_processed_posts()
+
+= 1.12 =
+* Added: Support for the format= parameter - allowing HTML content to be displayed in the caption area
+
+= 1.11 = 
+* Fixed: Changed nivo-slider-32.css to correctly display transitions in text widgets... where oik.css was setting max-width to 100%, but nivo needs max-width: none;
+ 
+= 1.10 =
+* Fixed: Logic now allows thumbs=n parameter to override setting of Control nav thumbs.
+* Added: support to override: Control nav ( nav=n|y ), Pause time ( pause=nnnn ) and Manual advance ( manual=n|y ) 
+
+= 1.9 =
+* Added: Added link=file parameter option to enable opening of images with "fancybox" without having to set the oik custom image link field
+* Added: rel="slider-n" to allow fancybox to open media files (link=file) in a fancybox gallery 
+* Added: class "iframe" to allow fancybox to open attachment links (link=y) in an iframe. 
+* Changed: Now uses jQuery nivo slider version 3.2
+* Changed: Updated oik nivo caption click jQuery; replacing live() with on()
+* Tested: With WordPress 3.6.1
+
+= 1.8 = 
+* Added: Support for displaying images from NextGEN galleries using post_type=nggallery:n where n= gallery ID
+* Changed: Updated to use the latest dependency checking logic
+* Tested: with WordPress 3.5.1 
+* Changed: Improved some documentation comments
+* Changed: Added a blank space in the syntax for the effect parameter - to improve the formatting in oik shortcode help 
+
+= 1.7.1216 = 
+* Added: effect parameter to override the profile setting
+
+= 1.7 = 
+* Changed: Improved CSS to allow for themes that set margins on <img> tags
+* Noted: bug causing small images to appear
+
+= 1.6.1128 =
+* Added: Slider transitions: "slideInLeft" and "slideInRight". 
+* Fixed: Bug preventing boxRain transition from completing when boxCols or boxRows values set in Nivo settings. Depends on oik v1.17.1128
+
+= 1.6.1122.1709 =
+* Added: controlNavThumbs option in Nivo settings. For Nivo 3.1
+* Added: Also supports thumbs=y|n parameter to override controlNavThumbs
+
+= 1.6.1122 =
+* Added: Now supports nivo version 3.1 AND nivo 2.7.1. You can mix and match slider themes on a page
+* Changed: Default theme is still called default. If you want the default theme from nivo 2.7.1 use default271
+ 
+= 1.6.1121 = 
+* Fixed: Now supports images with only one size - as in  http://herbmiller.me/about/herb-miller-portraits
+
+= 1.6 =
+* Fixed: Added support for the thumbnail parameter. Required when the full size image is much larger than the slider size.  
+
+= 1.5 =
+* Fixed: Unrecoverable fatal error in admin pages if the oik base plugin is deactivated. Missing bw_trace2()
+
+= 1.4 =
+* Added: Improved dependency checking. oik-nivo-slider will produce a link to install, upgrade or activate oik
+* Fixed: slider only working for post_type="attachment" since the post_mime_type=image parameter was being set incorrectly
+* Note: There is a workaround for the above problem; include `post_mime_type=" " thumbnail="large"` in the shortcode 
+
+= 1.3 = 
+* Added: Link to any content from attached images 
+* Fixed: calls bw_jquery() setting $windowload parameter to true... the default in oik v1.13 is false
+* Fixed: can't click on captions - undefined variable oik_nc_script
+
+= 1.2 =
+* Added: Default slideshow options can be configured
+* Added: post_mime_type parameter defaults to "image"
+* Added: option to display "screenshot" files from installed plugins [nivo post_type="screenshot:oik-nivo-slider"]
+* Changed: The example logic will display the oik-nivo-slider screenshots
+* Changed: oik-nivo-slider will now produce warning messages when the pre-requisite version of the oik plugin is not satisfied
+* Changed: BUT it WILL crash if you try to run it against oik version 1.11
+* Fixed: Corrected the name of the oik base plugin when using Plugin Dependencies
+* Fixed: minimum version of WordPress required is 3.3
+* Fixed: Added a workaround to allow oik version 1.12 on single site, but needing oik v1.12.1 for MultiSite 
+
+= 1.1.1 =
+* Fixed: Correction for Fatal error due to _sc_thumbnail() not being defined... it's in the next version of OIK.
+
+= 1.1 =
+* Added: link=n parameter for when you just want a slideshow
+* Added: caption=n parameter for when you want plain pictures
+* Added: ribbon=n parameter to disable the ribbon image shown in some themes
+* Added: oik theme - demonstrating CSS for hovering over the caption
+* Changed: corrections and updates to this readme.txt file 
+* Changed: Uses the the minified jQuery Nivo slider library by default.
+* Fixed: Uses the metadata to find the filename for the attached image
+
+= 1.0 =
+* initial version. Works with oik version 1.11 
+
+
